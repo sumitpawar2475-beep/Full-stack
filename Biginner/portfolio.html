@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+          content="My personal learning status page showing my skills, education, goals, and programming journey.">
+    <title>Learning Status</title>
+</head>
+<body>
+    <!--Header Section-->
+    <header id="home">
+        <h1>My Learning Status Page</h1>
+        <img src="images/profile-pic.jpg"
+         alt="Profile Picture"
+         width="200"
+         height="200"
+        >
+    </header>
+    <!--Nevigation Section-->
+    <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+    </nav>
+    <!--Main Section-->
+    <main>
+
+        <section id="about">
+            <h2>About me</h2>
+
+            <p>
+                Hello!<br>
+                My name is Sumit Pawar.<br>
+                I am a Computer Engineering Student.<br>
+                I am learning to build a website.<br>
+            </p>
+        </section>
+            
+        <section>
+            <h2>Currently I am learning.</h2> 
+            <ul>
+                <li><abbr title="Hyper Text Markup Language">HTML</abbr></li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul></section>
+
+        <section id="skills">
+            <h2>My Skills</h2>
+            <ol>
+                <li>Python</li>
+                <li>C Programming</li>
+                <li>C++</li>
+                <li>Git and GitHub</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>My Favorite Technologies</h2>
+
+            <div>
+                <h3>Programming</h3>
+                <p>I like learning <q>C++ and Python.</q></p>
+                <blockquote>
+                    Because it has good
+                    scope for placement
+                </blockquote>
+                <p>
+                    I learn these languages from 
+                    <cite>Apna College</cite>
+                </p>
+            </div>
+
+            <div>
+                <h3>Web Development</h3>
+                <p>I am currently learning 
+                    <abbr title="Hyper Text Markup Language">HTML</abbr>
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Learning Source</h2>
+            <div>
+                <h3>Video</h3>
+                <video width="500" controls>
+                    <source src="" type="video/mp4">
+                </video>
+            </div>
+            <div>
+                <h3>Website</h3>
+                <iframe src="https://www.msn.com"
+                        width="600"
+                        height="400">
+                </iframe>
+            </div>
+        </section>
+
+        <section>
+                <h2>My Hobbies</h2>
+
+                <ul>
+                    <li>Coding</li>
+                    <li>Learning new technology</li>
+                    <li>Playing games</li>
+                    <li>Travelling</li>
+                </ul>
+        </section>
+
+        <section>
+            <h2>My Subjects</h2>
+            <table border="2">
+                <tr>
+                    <th>Subject</th>
+                    <th>Language</th>
+                    <th>Level</th>
+                </tr>
+                <tr>
+                    <td>Web Development</td>
+                    <td>HTML</td>
+                    <td>Intermediate</td>
+                </tr>
+                <tr>
+                    <td>Data Science</td>
+                    <td>Python</td>
+                    <td>Beginner</td>
+                </tr>
+                <tr>
+                    <td>Programming</td>
+                    <td>C++</td>
+                    <td>Intermediate</td>
+                </tr>
+
+            </table>
+        </section>
+
+        <section id="education">
+            <h2>My Education</h2>
+            <table border="2">
+                <tr>
+                    <th>Degree</th>
+                    <th>College/School</th>
+                    <th>Year</th>
+                </tr>
+                <tr>
+                    <td><abbr title="Batchlor of Technology">B.Tech</abbr></td>
+                    <td>Modern college of engineering</td>
+                    <td>2025-2029</td>
+                </tr>
+                <tr>
+                    <td>12<sup>th</sup></td>
+                    <td>Residential Jr. College</td>
+                    <td>2025</td>
+                </tr>
+                <tr>
+                    <td>10<sup>th</sup></td>
+                    <td>Kendriya Vidyalya A.nagar</td>
+                    <td>2023</td>
+                </tr>
+
+            </table>
+        </section>
+            
+        <section>
+            <div>
+                <h2>My Goals</h2>
+                <details>
+                    <summary>Short term goals</summary>
+                    <ul>
+                        <li>Complete HTML</li>
+                        <li>Learn CSS</li>
+                        <li>Learn JavaScript</li>
+                    </ul>
+                </details>
+                <details>
+                    <summary>Long term goal</summary>
+                    <ul>
+                        <li>To become a full-stack developer</li>
+                        <li>Build real projects</li>
+                        <li>Participate in hackthons</li>
+                    </ul>
+                </details>
+            </div>
+        </section>
+
+        <section>
+            <h2>Profiles</h2>
+            <a href="https://github.com/sumitpawar2475-beep" target="_blank">
+                Visit GitHub Profile
+            </a>
+            <br>   
+            <a href="https://leetcode.com/sumit_pawar747/" target="_blank">
+                Visit leetCode profile
+            </a>
+        </section>
+           
+        <hr>
+        <!--Form Section-->
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <form action="" method="post">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                        <label for="name">Name: </label>
+                        <input type="text" 
+                            id="name"
+                            name="name" 
+                            placeholder="Enter your name"
+                            minlength="3"
+                            maxlength="30"
+                            autocomplete="name"
+                            required>
+                        <br><br>
+                        <label for="dob">Date of birth: </label>
+                        <input type="date" 
+                            id="dob" 
+                            name="date">
+                        <br><br>
+                        <label for="email">Email: </label>
+                        <input type="email"
+                            id="email"
+                            name="email" 
+                            placeholder="Enter your email address"
+                            autocomplete="email" 
+                            required>
+                        <br><br>
+
+                        <label for="college">College: </label>
+                            <input type="text"
+                                id="college"
+                                name="college"
+                                placeholder="Enter your college name"
+                                minlength="9"
+                                maxlength="40"
+                                required>
+                            <br>
+                </fieldset>  
+                    
+                <fieldset>
+                    <legend>Academic Information</legend>
+                        <div>
+                            <label for="department">Department:</label>
+                            <select id="department" name="department" required>
+                                <option value="" selected disabled>
+                                    Select your department
+                                </option>
+                                <option value="comp">Computer Engineering</option>
+                                <option value="it">Information Technology</option>
+                                <option value="entc">Electronics</option>
+                                <option value="me">Mechanical</option>
+                                <option value="civil">Civil</option>
+                            </select>
+                        </div>
+                        <p>Year</p>
+                        <div>
+                            <input type="radio" id="first" name="year" value="first">
+                            <label for="first">First Year</label>
+
+                            <input type="radio" id="second" name="year" value="second">
+                            <label for="second">Second Year</label>
+
+                            <input type="radio" id="third" name="year" value="third">
+                            <label for="third">Third Year</label>
+
+                            <input type="radio" id="fourth" name="year" value="fourth">
+                            <label for="fourth">Fourth Year</label>
+                        </div>
+            
+                        <p>Skills</p>
+                        <div>
+                            <input type="checkbox" id="python" name="skills" value="python">
+                            <label for="python">Python</label>
+
+                            <input type="checkbox" id="cpp" name="skills" value="cpp">
+                            <label for="cpp">C++</label>
+
+                            <input type="checkbox" id="html" name="skills" value="html">
+                            <label for="html">HTML</label>
+
+                            <input type="checkbox" id="github" name="skills" value="github">
+                            <label for="github">Git & GitHub</label>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="language">Favorite Language:</label>
+
+                            <input list="languages" id="language" name="language">
+
+                            <datalist id="languages">
+                                <option value="C++">
+                                <option value="Python">
+                                <option value="Java">
+                                <option value="JavaScript">
+                            </datalist>
+                        </div>
+                        <div>
+                            <p>Experience level</p>
+                            <input type="range" id="experience" name="experience"
+                                   min="0"
+                                   max="10">
+                            <label for="experience">Experience </label>
+                        </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Message</legend>
+                        <label for="message">Message: </label>
+                        <br>
+                        <textarea
+                        id="message"
+                        name="message" 
+                        placeholder="Add your message here.."></textarea>
+                        <br><br>
+                        <label for="status">Choose status</label>
+                        <select id="status"
+                                name="status">
+                            <option value="urgent">Urgent</option>
+                            <option value="casual">Casual</option>
+                        </select>
+                        <br>
+                </fieldset>
+
+                <br>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+                <button type="button">Click Me</button>
+            </form>
+        </section>
+    </main>
+    <!--Footer Section-->
+    <footer>
+        <p>My learning status page</p>
+    </footer>
+
+</body>
+</html>
